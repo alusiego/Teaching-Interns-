@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.gallary{
+      border: 1px solid gray;
+      
+} 
+
+.gallary img{
+    width: 100%;
+    /* height: auto; */
+}
+.responsive{
+    padding: 0 6px;
+    width: 25%;
+    float: left;
+   
+}
+.text{
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 7px;
+    color: whitesmoke;
+
+}
+#center-h1{
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: monospace;
+    font-size: 5rem;
+    color: whitesmoke;
+
+
+
+}
+
+@media only screen and (max-width:700px){
+    .responsive{
+        width: 50%;
+        margin: 6px 0;
+
+    }
+}
+@media only screen and (max-width:500px){
+    .responsive{
+        width: 100%;
+        
+    }
+}
